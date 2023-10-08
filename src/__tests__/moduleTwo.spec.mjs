@@ -4,6 +4,8 @@ import {
 import axios from 'axios';
 import { generateFibonacciSequence, getUsers } from '../moduleTwo.mjs';
 
+// Test moduleTwo
+
 jest.mock('axios');
 
 describe('Test generateFibonacciSequence', () => {
