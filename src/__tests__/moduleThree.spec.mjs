@@ -14,9 +14,7 @@ describe('moduleThree test', () => {
   });
 
   test('sortNumbers when there is an empty array (no numbers provided)', () => {
-    const numbers = [];
-    const error = new Error('No numbers provided');
-    expect(() => sortNumbers(numbers).toThrow(error));
+    expect(() => sortNumbers([])).toThrow('No numbers provided');
   });
 
   test('getTodos HappyPath', async () => {

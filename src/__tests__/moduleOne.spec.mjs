@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import {
   jest, describe, test, expect,
 } from '@jest/globals';
